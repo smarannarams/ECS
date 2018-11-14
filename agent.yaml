@@ -43,6 +43,7 @@ monitors:
     etcPath: /hostfs/etc
   - type: collectd/uptime
   - type: collectd/vmem
+  - type: genericjmx
 
   - type: docker-container-stats
     labelsToDimensions:
